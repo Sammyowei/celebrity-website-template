@@ -1,0 +1,57 @@
+/* Root variables for consistent theming */
+
+
+  :root {
+    --bg-color: #fdfefe;
+    --accent-color: #d4af37;
+    --text-color-primary: #2c3e50;
+    --text-color-secondary: #7f8c8d;
+    --btn-bg-color: #2c3e50;
+    --btn-text-color: #fff;
+    --btn-hover-color: #5c6c7d;
+  }
+  /* Section container */
+  .meet-section {
+    padding: 40px 20px;
+    background-color: var(--bg-color);
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .meet-section h2 {
+    font-size: 24px;
+    color: var(--text-color-primary);
+    margin-bottom: 16px;
+  }
+  
+  .meet-section p {
+    font-size: 16px;
+    color: var(--text-color-secondary);
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .meet-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .mm-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mm-button:hover {
+    background-color: var(--btn-hover-bg-color);
+  }
+  

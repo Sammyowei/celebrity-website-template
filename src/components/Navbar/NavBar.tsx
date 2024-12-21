@@ -61,11 +61,11 @@ function NavBar () {
           <li className="nav-item">
             <a href="/about" className="nav-link" onClick={closeMenu}>About</a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a href="/gallery" className="nav-link" onClick={closeMenu}>Gallery</a>
-          </li>
+          </li> */}
           <li className="nav-item">
-            <a href="/contact" className="nav-link" onClick={closeMenu}>Contact</a>
+            <a href="/meet-lee" className="nav-link" onClick={closeMenu}>Meet Lee</a>
           </li>
         </ul>
       </div>
