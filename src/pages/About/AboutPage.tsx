@@ -1,6 +1,13 @@
 import React from "react";
 import "./AboutPage.css";
 
+
+import about_one from "../../assets/images/general/about-1.jpg"
+import about_two from "../../assets/images/general/about-2.jpg"
+import about_three from "../../assets/images/general/about-3.jpg"
+import MeetSection from "../Home/components/MeetSection/MeetSection.tsx";
+import Footer from "../../components/Footer/Footer.tsx";
+
 const AboutPage = () => {
   return (
     <div className="about-container">
@@ -25,8 +32,8 @@ const AboutPage = () => {
           </div>
           <div className="section-image">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Lee_Jun-ho_at_an_event_in_2022.jpg/800px-Lee_Jun-ho_at_an_event_in_2022.jpg"
-              alt="Young Lee Junho"
+              src={about_one}
+               alt="Young Lee Junho"
             />
           </div>
         </div>
@@ -37,7 +44,7 @@ const AboutPage = () => {
         <div className="section-content reverse">
           <div className="section-image">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Lee_Jun-ho_-_fan_meeting_2021.jpg/800px-Lee_Jun-ho_-_fan_meeting_2021.jpg"
+              src={about_two}
               alt="Lee Junho Career Highlights"
             />
           </div>
@@ -67,21 +74,15 @@ const AboutPage = () => {
           </div>
           <div className="section-image">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Lee_Jun-ho_in_The_Red_Sleeve.jpg/800px-Lee_Jun-ho_in_The_Red_Sleeve.jpg"
+              src={about_three}
               alt="Lee Junho in The Red Sleeve"
             />
           </div>
         </div>
       </section>
       
-      {/* Call-to-Action Section */}
-      <section className="cta-section">
-        <h2>Book Lee Junho for an In-Person Engagement</h2>
-        <p>
-          Whether for a fan meeting, public speaking, or personal appearance, Lee Junho is ready to inspire and entertain. Click the button below to make a booking.
-        </p>
-        <button className="cta-button">Book Now</button>
-      </section>
+      <MeetSection></MeetSection>
+<Footer></Footer>
     </div>
   );
 };
