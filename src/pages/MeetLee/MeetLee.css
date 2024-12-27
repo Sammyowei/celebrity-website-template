@@ -1,0 +1,124 @@
+:root {
+    --bg-color: #fdfefe;
+    --text-color-primary: #2c3e50;
+    --text-color-secondary: #7f8c8d;
+    --accent-color: #d4af37;
+    --btn-bg-color: #2c3e50;
+    --btn-text-color: #fff;
+    --btn-hover-bg: #d4af37;
+}
+
+.meet-lee-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    background-color: var(--bg-color);
+}
+
+.meet-lee-title {
+    font-size: 2.5rem;
+    color: var(--text-color-primary);
+    margin-bottom: 20px;
+}
+
+.intro-section {
+    margin-bottom: 30px;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    color: var(--text-color-secondary);
+    margin-bottom: 15px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.intro-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.meet-lee-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.meet-lee-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image-holder {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: var(--text-color-primary);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-description {
+    font-size: 1rem;
+    color: var(--text-color-secondary);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-button {
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: var(--btn-hover-bg);
+}
+
+@media (max-width: 768px) {
+    .intro-content {
+        padding: 0 10px;
+    }
+
+    .meet-lee-sections {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .meet-lee-card {
+        width: 100%;
+        max-width: 400px;
+    }
+}

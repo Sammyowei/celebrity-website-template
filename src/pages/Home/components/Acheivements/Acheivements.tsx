@@ -1,7 +1,17 @@
 import React from "react";
 import "./Achievements.css";
+import { useNavigate } from 'react-router-dom';
 
 const Achievements = () => {
+
+
+  const navigate = useNavigate();
+
+
+  const handleClick = () => {
+    navigate('/meet-lee');
+
+  };
   return (
     <section className="achievements-section">
       <div className="container">
@@ -42,11 +52,13 @@ const Achievements = () => {
 
         {/* CTA Buttons */}
         <div className="cta-buttons">
-          <button className="btn-primary">Get in touch</button>
-          
+          <button className="btn-primary" onClick={
+            handleClick
+          }>Get in touch</button>
+
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 

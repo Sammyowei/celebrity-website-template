@@ -1,9 +1,19 @@
 import React from "react";
-import  "./ContentSection.css"
+import "./ContentSection.css"
 import junho from "../../../../assets/images/general/junho-content.jpg"
 import "./ContentSection.css";
+import { useNavigate } from 'react-router-dom';
+
 
 const ContentSection = () => {
+
+  const navigate = useNavigate();
+
+
+  const handleClick = () => {
+    navigate('/meet-lee');
+
+  };
   return (
     <div className="content-section">
       {/* Text Section */}
@@ -14,8 +24,10 @@ const ContentSection = () => {
           Stay in the loop with the latest projects and achievements.
         </p>
         <div className="content-buttons">
-          <button className="b-button">Join Community</button>
-          
+          <button className="b-button" onClick={
+            handleClick
+          }>Join Community</button>
+
         </div>
       </div>
       {/* Image Section */}

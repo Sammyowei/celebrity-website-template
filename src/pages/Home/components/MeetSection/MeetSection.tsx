@@ -1,7 +1,19 @@
 import React from "react";
 import "./MeetSection.css";
+import { useNavigate } from 'react-router-dom';
+
 
 const MeetSection = () => {
+
+
+
+  const navigate = useNavigate();
+
+
+  const handleClick = () => {
+    navigate('/meet-lee');
+
+  };
   return (
     <section className="meet-section">
       <h2>Meet Lee Junho in Person!</h2>
@@ -10,8 +22,12 @@ const MeetSection = () => {
         experience. It's set to inspire us.
       </p>
       <div className="meet-buttons">
-        <button className="mm-button">Book</button>
-        <button className="mm-button">Learn More</button>
+        <button className="mm-button" onClick={
+          handleClick
+        }>Book lee</button>
+        <button className="mm-button" onClick={
+          handleClick
+        }>Learn More</button>
       </div>
     </section>
   );

@@ -14,11 +14,11 @@ const HeroSection = () => {
           Explore the life, achievements, and updates of your favorite artist and actor.
         </p>
         <div className="hero-buttons">
-          <a href="#about" className="button primary">
-            Discover More
+          <a href="/donate" className="button primary">
+            Donate
           </a>
-          <a href="#projects" className="button secondary">
-            Latest Projects
+          <a href="/meet-lee" className="button secondary">
+            Meet Lee
           </a>
         </div>
       </div>

@@ -1,0 +1,110 @@
+:root {
+    --bg-color: #fdfefe;
+    --text-color-primary: #2c3e50;
+    --text-color-secondary: #7f8c8d;
+    --accent-color: #d4af37;
+    --btn-bg-color: #2c3e50;
+    --btn-text-color: #fff;
+    --btn-hover-bg: #d4af37;
+}
+
+
+
+.donation-page {
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+
+.image-placeholder {
+    width: 400px;
+    height: 300px;
+
+
+}
+
+.donation-page h1 {
+    color: var(--text-color-primary);
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.donation-page p {
+    color: var(--text-color-secondary);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.donation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-group {
+    text-align: left;
+    max-width: 600px;
+    justify-content: center;
+
+
+
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.donate-button {
+    padding: 10px 20px;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    max-width: 90%;
+
+}
+
+.donate-button:hover {
+    background-color: var(--btn-hover-bg);
+    max-width: 90%;
+
+}
+
+@media (max-width: 768px) {
+    .donation-page {}
+
+    .donation-form {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .form-group input {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .donate-button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
