@@ -24,16 +24,18 @@
   .content-text {
     flex: 1;
     min-width: 300px;
+
   }
   
   .content-text h1 {
-    font-size: 28px;
+    font-size: 50px;
     margin-bottom: 16px;
     color: var(--text-color-primary);
+
   }
   
   .content-text p {
-    font-size: 16px;
+    font-size: 20px;
     color: var(--text-color-secondary);
     margin-bottom: 20px;
   }
@@ -43,17 +45,20 @@
     gap: 10px;
     justify-content: center;
     
+    
   }
   
   .b-button {
     background-color: var(--btn-bg-color);
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px 30px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
+   
     transition: background-color 0.3s ease;
   }
   

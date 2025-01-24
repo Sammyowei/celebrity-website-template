@@ -1,14 +1,14 @@
 import React from "react";
 import "./HeroSection.css";
 
-import junho from "../../../../assets/images/general/junho-hero-h.jpg"
+import junho from "../../../../assets/images/LeeJuhno/lee10.jpg"
 
 const HeroSection = () => {
   return (
     <div className="hero-container">
       <div className="hero-content">
         <h1 className="hero-title">
-          Welcome to <span className="highlight">Lee Junho</span>'s World
+          Welcome to  <span className="highlight">Lee Junho</span>'s World
         </h1>
         <p className="hero-subtitle">
           Explore the life, achievements, and updates of your favorite artist and actor.

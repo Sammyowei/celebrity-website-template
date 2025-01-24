@@ -16,6 +16,14 @@ const ContentSection = () => {
   };
   return (
     <div className="content-section">
+      {/* image section */}
+      <div className="content-image">
+        <img
+          src={junho} // Replace with the actual image URL
+          alt="Lee Junho Journey"
+          className="responsive-image"
+        />
+      </div>
       {/* Text Section */}
       <div className="content-text">
         <h1>Stay Updated on Lee Junho's Journey</h1>
@@ -29,14 +37,6 @@ const ContentSection = () => {
           }>Join Community</button>
 
         </div>
-      </div>
-      {/* Image Section */}
-      <div className="content-image">
-        <img
-          src={junho} // Replace with the actual image URL
-          alt="Lee Junho Journey"
-          className="responsive-image"
-        />
       </div>
     </div>
   );

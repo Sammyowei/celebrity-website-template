@@ -62,7 +62,7 @@ function NavBar() {
             <a href="/about" className="nav-link" onClick={closeMenu}>About</a>
           </li>
           <li className="nav-item">
-            <a href="/donations" className="nav-link" onClick={closeMenu}>Donate</a>
+            <a href="/donate" className="nav-link" onClick={closeMenu}>Donate</a>
           </li>
           <li className="nav-item">
             <a href="/meet-lee" className="nav-link" onClick={closeMenu}>Meet Lee</a>

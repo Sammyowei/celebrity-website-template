@@ -1,7 +1,6 @@
 // Import necessary modules
 import React, { useState } from 'react';
-import
-donations from "../../assets/images/general/donation.jpg"
+import donations from "../../assets/images/general/donation.jpg"
 import './DonationPage.css'; // For styling (create this file to style the page)
 import Alert from "../../components/Alert/Alert.tsx"
 import Footer from "../../components/Footer/Footer.tsx"
@@ -13,7 +12,6 @@ type FormData = {
 };
 
 const DonationPage: React.FC = () => {
-    // State for form inputs
     const [formData, setFormData] = useState<FormData>({
         name: '',
         email: '',

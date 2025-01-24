@@ -1,11 +1,6 @@
 /* Achievements.css */
 
-:root {
-  --background-color: #fdfefe;
-  --accent-color: #D4AF37;
-  --secondary-color: #7F8C8D;
-  --primary-color: #2C3E50;
-}
+
 
 .achievements-section {
   padding: 2rem;
@@ -70,6 +65,10 @@
   font-size: 0.9rem;
   color: var(--secondary-color);
 }
+.card-image{
+  height: 100px;
+  background-color: red;
+}
 
 .cta-buttons {
   display: flex;
@@ -79,8 +78,8 @@
 
 .btn-primary,
 .btn-secondary {
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
+  padding: 20px 50px;
+  font-size: 1.5rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -88,12 +87,12 @@
 }
 
 .btn-primary {
-  background-color: var(--accent-color);
+  background-color: #4f4f4f;
   color: var(--background-color);
 }
 
 .btn-primary:hover {
-  background-color: darken(var(--accent-color), 10%);
+  background-color: #3d3c3c;
 }
 
 .btn-secondary {

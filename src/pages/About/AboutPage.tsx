@@ -12,10 +12,10 @@ const AboutPage = () => {
   return (
     <div className="about-container">
       <header className="about-header">
-        <h1>About Lee Junho</h1>
-        <p>
+        <h1>About</h1>
+        {/* <p>
           Dive deep into the life, career, and accomplishments of the talented South Korean artist, Lee Junho.
-        </p>
+        </p> */}
       </header>
       
       {/* Early Life Section */}
@@ -41,7 +41,7 @@ const AboutPage = () => {
       
       {/* Career Section */}
       <section className="about-section">
-        <div className="section-content reverse">
+        <div className="section-content">
           <div className="section-image">
             <img
               src={about_two}
